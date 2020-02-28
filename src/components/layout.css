@@ -22,6 +22,9 @@ section,
 summary {
   display: block;
 }
+main {
+  max-width: 640px;
+}
 audio,
 canvas,
 progress,
@@ -40,8 +43,8 @@ template {
   display: none;
 }
 a {
+  color: #005ea5;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
